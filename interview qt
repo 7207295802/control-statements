@@ -1,0 +1,52 @@
+1. What are control statements in Java?
+
+Control statements determine the order in which program statements are executed.
+
+Types:
+
+Selection Statements (if, if-else, switch)
+Iteration Statements (for, while, do-while)
+Jump Statements (break, continue, return)
+2. What is the difference between if and switch?
+if	switch
+Works with conditions and relational operators	Works with fixed values
+Can evaluate ranges	Cannot evaluate ranges directly
+Slower for many conditions	Faster for multiple choices
+3. When should you use a switch statement?
+
+Use switch when you need to select one option from many fixed choices based on a single variable.
+
+switch(day){
+    case 1: System.out.println("Monday");
+    break;
+}
+4. What is the difference between while and do-while?
+while	do-while
+Condition checked first	Condition checked after execution
+May execute zero times	Executes at least once
+5. What is an infinite loop?
+
+A loop that never terminates.
+
+while(true){
+    System.out.println("Hello");
+}
+6. What is the difference between break and continue?
+break	continue
+Terminates the loop	Skips current iteration
+Control moves outside loop	Control goes to next iteration
+7. Can break be used outside a loop?
+
+No. Using break outside a loop or switch causes a compile-time error.
+
+8. Can continue be used in a switch statement?
+
+No, unless the switch is inside a loop.
+
+9. What is the purpose of the return statement?
+
+return exits a method and optionally returns a value.
+
+int add(int a, int b){
+    return a + b;
+}
